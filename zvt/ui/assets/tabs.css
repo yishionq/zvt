@@ -1,0 +1,32 @@
+.custom-tabs {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 30%;
+    padding: 1px 1px;
+    padding-left: 56px;
+    height: 60px;
+}
+
+.custom-tab {
+    color: darkgrey;
+    border-top: 2px solid darkgray !important;
+    border-bottom: 2px solid darkgray !important;
+    border-left: 2px solid darkgray !important;
+    border-right: 2px solid darkgray !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    height: 60px;
+}
+
+.custom-tab--selected {
+    border-top: 2px solid dodgerblue !important;
+    border-bottom: 2px solid dodgerblue !important;
+    border-left: 2px solid dodgerblue !important;
+    border-right: 2px solid dodgerblue !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin: 1px;
+    font-weight: bold;
+}

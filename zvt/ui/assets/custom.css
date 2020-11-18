@@ -61,9 +61,6 @@ h5{
   height: 500px;
 }
 
-.app-body{
-  margin-left: 4%;
-}
 
 .card{
   padding:48px 24px 48px 24px;
@@ -159,8 +156,8 @@ h5{
     margin-left: 0px;
   }
 
-  .four.columns                   { width: 100%; }
-  .eight.columns                  { width: 100%; }
+  .three.columns                   { width: 100%; }
+  .nine.columns                  { width: 100%; }
 
   .columns{
     text-align: center;

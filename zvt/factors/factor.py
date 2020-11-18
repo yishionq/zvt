@@ -254,13 +254,13 @@ class Factor(DataReader, DataListener):
         drawer = Drawer(self.factor_df)
         return drawer
 
-    def get_main_data(self) -> Optional[NormalData]:
+    def drawer_main_df(self) -> Optional[NormalData]:
         return self.data_df
 
-    def get_factor_df_list(self) -> Optional[List[pd.DataFrame]]:
+    def drawer_factor_df_list(self) -> Optional[List[pd.DataFrame]]:
         return [self.factor_df]
 
-    def get_sub_df(self) -> Optional[pd.DataFrame]:
+    def drawer_sub_df(self) -> Optional[pd.DataFrame]:
         return self.result_df
 
     def fill_gap(self):
